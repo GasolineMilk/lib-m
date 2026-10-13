@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.reader_controller">
+   <children>
+      <Button fx:id="btn_back" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" onAction="#click_back" text="Go Back" />
+      <AnchorPane fx:id="result_pane" layoutY="67.0" prefHeight="730.0" prefWidth="1000.0" />
+   </children>
+</AnchorPane>
